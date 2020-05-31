@@ -1,2 +1,4 @@
 ﻿bin/
 .vscode
+**/dump.html
+*.html
