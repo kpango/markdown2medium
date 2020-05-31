@@ -53,6 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./bin/linux-x64/markdown2medium.exe
+          asset_path: ./bin/linux-x64/markdown2medium
           asset_name: markdown2medium-${{ env.VERSION }}-linux-x64
           asset_content_type: application/octet-stream
