@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-18.04
     env:
       VERSION: '0.1.${{ github.run_number }}'
-      VERSION_FULL: '${{ env.VERSION }}+${{ github.sha }}'
+      VERSION_FULL: '0.1.${{ github.run_number }}+${{ github.sha }}'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
