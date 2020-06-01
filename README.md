@@ -20,6 +20,24 @@ The integration token is now available until you explicitly revoke it.
 ![Integration Token and Revoke button](doc/images/2020-05-31_144529.png)
 
 
+## Download
+
+For Linux
+```bash
+$ver = '0.1.1'
+curl -L https://github.com/giuliov/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-linux-x64 -o markdown2medium
+chmod +x markdown2medium
+./markdown2medium -h
+```
+
+For Windows
+```powershell
+$ver = '0.1.1'
+Invoke-WebRequest https://github.com/giuliov/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-win-x64.exe -OutFile markdown2medium.exe
+./markdown2medium -h
+```
+
+
 ## Usage
 
 The options should be self-explanatory. Use `markdown2medium -h` to get the list of possible options.
