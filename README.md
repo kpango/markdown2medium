@@ -1,4 +1,4 @@
-![build](https://github.com/giuliov/markdown2medium/workflows/build/badge.svg)
+![build](https://github.com/kpango/markdown2medium/workflows/build/badge.svg)
 
 # markdown2medium
 Inspired by cjoudrey/md2medium, I want a simple way to re-publish in Medium some Markdown posts written for Hugo.
@@ -25,7 +25,7 @@ The integration token is now available until you explicitly revoke it.
 For Linux
 ```bash
 $ver = '0.1.1'
-curl -L https://github.com/giuliov/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-linux-x64 -o markdown2medium
+curl -L https://github.com/kpango/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-linux-x64 -o markdown2medium
 chmod +x markdown2medium
 ./markdown2medium -h
 ```
@@ -33,7 +33,7 @@ chmod +x markdown2medium
 For Windows
 ```powershell
 $ver = '0.1.1'
-Invoke-WebRequest https://github.com/giuliov/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-win-x64.exe -OutFile markdown2medium.exe
+Invoke-WebRequest https://github.com/kpango/markdown2medium/releases/download/v${ver}/markdown2medium-${ver}-win-x64.exe -OutFile markdown2medium.exe
 ./markdown2medium -h
 ```
 
