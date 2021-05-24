@@ -14,8 +14,8 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/Medium/medium-sdk-go"
-	"github.com/giuliov/markdown2medium/mdext"
 	"github.com/jessevdk/go-flags"
+	"github.com/kpango/markdown2medium/mdext"
 	"github.com/yuin/goldmark"
 	"gopkg.in/yaml.v2"
 	// highlighting "github.com/yuin/goldmark-highlighting"
